@@ -10,6 +10,7 @@ const Home = () => {
           {/* text */}
           <div className="text-center xl:text-left">
             <span className="text-xl">Aspiring Software Engineer</span>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <h1 className="h1 mb-6">
               Hello I'm <br />
               <span className="text-accent">Kwabena A. Boström</span>
@@ -30,8 +31,8 @@ const Home = () => {
               </Button>
 
               <div className="mb-8 xl:mb-0">
-                <Social/>
-                </div>
+                <Social />
+              </div>
             </div>
           </div>
           <div>photo</div>
