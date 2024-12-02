@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 import Photo from "@/components/ui/Photo";
-
+import Stats from "@/components/ui/Stats";
 import Social from "@/components/ui/Social";
 const Home = () => {
   return (
@@ -46,6 +46,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
