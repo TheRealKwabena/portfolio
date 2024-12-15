@@ -28,7 +28,11 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <span>
+                  <a href="https://drive.google.com/file/d/1JTD8LRmavAzKVRLEn4HCwo6ReEiTGsf5/view?usp=sharing">
+                    Download CV
+                  </a>
+                </span>
                 <FiDownload className="text-xl" />
               </Button>
 
