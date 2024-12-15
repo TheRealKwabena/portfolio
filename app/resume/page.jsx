@@ -28,12 +28,16 @@ const about = {
       fieldValue: "6+ months",
     },
     {
+      fieldName: "Zoom",
+      fieldValue: "@kwabenat",
+    },
+    {
       fieldName: "Nationality",
       fieldValue: "Ghanaian",
     },
     {
       fieldName: "Email",
-      fieldValue: "kobbzasare1@outlook.com",
+      fieldValue: "kasarebo@gsumail.gram.edu",
     },
 
     {
