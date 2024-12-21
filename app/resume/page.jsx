@@ -13,7 +13,8 @@ import {
 } from "react-icons/si";
 const about = {
   title: "About me",
-  description: "Lorem ipsum dolor sit amet consistur bladages kano",
+  description:
+    "An aspiring software engineer who loves innovation, collaboration and creativity",
   info: [
     {
       fieldName: "Name",
