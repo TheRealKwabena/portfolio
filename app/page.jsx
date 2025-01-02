@@ -32,7 +32,7 @@ const Home = () => {
                 className="uppercase flex items-center gap-2"
               >
                 <span>
-                  <a href="https://drive.google.com/file/d/1JTD8LRmavAzKVRLEn4HCwo6ReEiTGsf5/view?usp=sharing">
+                  <a href="">
                     Download CV
                   </a>
                 </span>
