@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic? ",
+      "Experiences with different tech stacks, combined with suitable software architectural patterns like Pub-Sub Architecture, Distributed Systems and Client-Server Architecture.",
     href: " ",
   },
   {
     num: "02",
-    title: "Backend Development",
+    title: "Cross-Platform Mobile Development",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic? ",
+      "Expertly design responsive mobile applications with Flutter and React-Native.",
     href: " ",
   },
   {
     num: "03",
     title: "Software Testing",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic? ",
+      "My expertise spans API testing, unit testing, and integration testing, with practical experience using tools like JUnit, Maven, and Postman.",
     href: "",
   },
   {
     num: "04",
-    title: "System Architecture",
+    title: "Systems Development",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic? ",
+      "Experience with developing hardware and software systems that communicate via MQTT and Arduino.",
     href: " ",
   },
 ];

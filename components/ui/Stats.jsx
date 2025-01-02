@@ -9,10 +9,10 @@ const stats = [
   },
   {
     value: 15,
-    text: "Projects ompleted",
+    text: "Projects completed",
   },
   {
-    value: 8,
+    value: 5,
     text: "Technologies mastered",
   },
   {

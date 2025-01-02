@@ -24,8 +24,8 @@ const projects = [
   {
     num: "01",
     category: "Frontend Development",
-    title: "Project 1",
-    description: "This is a description of project 1",
+    title: "Template Project",
+    description: "Description to be added",
     stack: [
       { name: "HTML 5" },
       { name: "CSS 3" },
@@ -40,12 +40,13 @@ const projects = [
     category: "Distributed Systems",
     title: "Project 2",
     description:
-      "Dentistimo: A full-stack web application implemented to help patients book dental appointments.",
+      "Dentistimo: A full-stack web application engineered with a distributed system design to provide a scalable and efficient dentistry appointment booking system.",
     stack: [
       { name: "MQTT" },
       { name: "MongoDB" },
       { name: "TypeScript" },
       { name: "ReactJS" },
+      { name: "NodeJS" },
     ] /**change this later */,
     image: "/assets/work/dentistimo.png" /**change this later */,
     live: "",
@@ -54,8 +55,9 @@ const projects = [
   {
     num: "03",
     category: "Embedded Systems and Web Development",
-    title: "Project 3",
-    description: "This is a description of project 2",
+    title: "MonkeyCar",
+    description:
+      "Ultimately, the main goal was to teach and inspire kids to code in a more fun and interactive way! Technology is being integrated more and more into our day to day lives, with a larger number of people wanting to learn programming. However, for young children, programming might be a bit intimidating at first, and the goal is to create a user-friendly, supportive platform that will help guide them and realise that programming can be a lot of fun",
     stack: [
       { name: "HTML 5" },
       { name: "CSS 3" },
@@ -79,7 +81,10 @@ const Work = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{
+        opacity: 1,
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+      }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0 "
     >
       <div className="container mx-auto">
@@ -168,7 +173,10 @@ const Work = () => {
                 );
               })}
               {/**slider buttons */}
-              <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              <WorkSliderBtns
+                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+              />
             </Swiper>
           </div>
         </div>

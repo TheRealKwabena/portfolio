@@ -10,11 +10,12 @@ import {
   SiSpringboot,
   SiCplusplus,
   SiPostgresql,
+  SiTypescript,
 } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "An aspiring software engineer who loves innovation, collaboration and creativity",
+    "An aspiring software engineer who loves innovation, collaboration and creativity. Whenever I get the chance to improve my skills, I relish the opportunity to apply my expertise in innovating creative solutions to real-world problems. Outside the CS sphere, I enjoy playing football(obviously not soccer😂), bowling, board games and cooking different cultural dishes.",
   info: [
     {
       fieldName: "Name",
@@ -26,11 +27,11 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "6+ months",
+      fieldValue: "2 years",
     },
     {
-      fieldName: "Zoom",
-      fieldValue: "@kwabenat",
+      fieldName: "Discord",
+      fieldValue: "@TheRealKwabena",
     },
     {
       fieldName: "Nationality",
@@ -57,7 +58,8 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "Lorem ipsum dolor sit amet consistur bladages kano",
+  description:
+    "Here are some of my current experiences in my software engineering journey.",
   items: [
     {
       company: "Ken Kroger's AB",
@@ -65,14 +67,14 @@ const experience = {
       duration: "Jun 2022 - Sept 2022 ",
     },
     {
+      company: "Gratuf Solutions / Studios",
+      position: "Software Tester",
+      duration: "2022 - Remote",
+    },
+    {
       company: "MTN Ghana",
       position: "Backend Engineer Intern",
       duration: "Jan 2021- Mar 2021",
-    },
-    {
-      company: "Gratuf Solutions",
-      position: "Software Tester",
-      duration: "2019-2020",
     },
   ],
 };
@@ -80,7 +82,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description: "Lorem ipsum dolor sit amet consistur bladages kano",
+  description: "Summary of my educational background.",
   items: [
     {
       institution: "Grambling State University",
@@ -152,6 +154,10 @@ const skills = {
     {
       icon: <SiSpringboot />,
       name: "spring boot",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "typescript",
     },
     {
       icon: <SiPostgresql />,
