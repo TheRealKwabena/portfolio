@@ -66,16 +66,7 @@ const experience = {
       position: "Software Engineer Intern",
       duration: "Jun 2022 - Sept 2022 ",
     },
-    {
-      company: "Gratuf Solutions / Studios",
-      position: "Software Tester",
-      duration: "2022 - Remote",
-    },
-    {
-      company: "MTN Ghana",
-      position: "Backend Engineer Intern",
-      duration: "Jan 2021- Mar 2021",
-    },
+    
   ],
 };
 //education data
