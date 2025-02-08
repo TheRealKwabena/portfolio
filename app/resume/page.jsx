@@ -81,11 +81,6 @@ const education = {
       duration: "2024 - Present",
     },
     {
-      institution: "Göteborgs Universitet",
-      degree: "Diploma in Software Engineering",
-      duration: "2021-2023",
-    },
-    {
       institution: "Presbyterian Boys' Senior High School",
       degree: "WASSCE",
       duration: "2017-2020",
