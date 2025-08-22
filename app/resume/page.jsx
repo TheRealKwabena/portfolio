@@ -62,6 +62,12 @@ const experience = {
     "Here are some of my current experiences in my software engineering journey.",
   items: [
     {
+      company: "Google LLC",
+      position: "Software Engineer Intern",
+      duration: "May 2025 - Aug 2025 ",
+    },
+
+    {
       company: "Ken Kroger's AB",
       position: "Software Engineer Intern",
       duration: "Jun 2022 - Sept 2022 ",
